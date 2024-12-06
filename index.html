@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Navaneeth Krishna - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            width: 210mm; /* A4 width */
+            max-height: 297mm; /* A4 height */
+            margin: 0 auto;
+            color: #333;
+            background: white;
+            padding: 25mm; /* Increased padding on all sides */
+            position: relative;
+        }
+
+        .resume-container {
+            max-width: 160mm; /* Accounting for padding */
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 15px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin: 0;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        .contact-info {
+            color: #555;
+            font-size: 11px;
+            margin: 8px 0;
+            line-height: 1.4;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #bdc3c7;
+            font-size: 13px;
+            padding-bottom: 3px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        h4 {
+            color: #2c3e50;
+            border-bottom: 1px solid #bdc3c7;
+            font-size: 11px;
+            padding-bottom: 3px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .section {
+            margin-bottom: 4px;
+            padding: 0.3mm; /* Added slight section padding */
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 0;
+            font-size: 12px;
+        }
+
+        .company-date {
+            color: #666;
+            font-style: italic;
+            margin: 3px 0;
+            font-size: 11px;
+        }
+
+        ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 3px 0;
+            font-size: 11px;
+            line-height: 1.4;
+            padding-left: 3px;
+        }
+
+        p {
+            font-size: 11px;
+            margin: 5px 0;
+            line-height: 1.4;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin: 0px 0;
+            padding: 5px;
+        }
+
+        .skill-category {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .skills-item {
+            font-size: 11px;
+            line-height: 1.4;
+            padding: 0px 0;
+        }
+
+        /* Inner border effect */
+        .page-border {
+            position: absolute;
+            top: 20mm;
+            left: 20mm;
+            right: 20mm;
+            bottom: 20mm;
+            border: 1px solid #e0e0e0;
+            pointer-events: none;
+        }
+
+        @media print {
+            body {
+                padding: 25mm;
+            }
+            @page {
+                size: A4;
+                margin: 0;
+            }
+            .page-border {
+                border: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-border"></div>
+    <div class="resume-container">
+        <div class="header">
+            <h1>NAVANEETH KRISHNA</h1>
+            <div class="contact-info">
+                Flutter Developer<br>
+                Perumbavoor, Kerala, India<br>
+                +91 6380-728-371 | navaneethkrishnaindeed@gmail.com
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>Senior Flutter Developer with 3+ years of experience in mobile application development, specializing in Flutter/Dart with expertise in MVC, MVVM, and DDD architectures. Proven track record in developing scalable applications, mentoring junior developers, and contributing to the Flutter community.</p>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skills-item">
+                    <span class="skill-category">Programming:</span> Flutter, Dart, Java , Python Django
+                </div>
+                <div class="skills-item">
+                    <span class="skill-category">Architecture:</span> MVC, MVVM, DDD
+                </div>
+                <div class="skills-item">
+                    <span class="skill-category">State Management:</span> BLOC, Riverpod, GetX, Provider & Consumer
+                </div>
+                <div class="skills-item">
+                    <span class="skill-category">Tools & Services:</span> Firebase, Google Maps, Cloud Services
+                </div>
+                
+            </div>
+            <div>
+                <h4>Domains</h4>
+                <ul>
+                    <li>Healthcare Management Systems (HMS)</li>
+                    <li>Educational Technology (Ed-Tech)</li>
+                    <li>E-commerce</li>
+                    <li>Customer Relationship Management (CRM)</li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <div class="section">
+            <h2>Professional Experience</h2>
+            
+            <div class="job">
+                <p class="job-title">Sr. Flutter Developer</p>
+                <p class="company-date">Ivory Technologies Pvt. Ltd | February 2024 - Present</p>
+                <ul>
+                    <li>Leading Flutter development initiatives across multiple domains including HMS and CRM systems</li>
+                    <li>Implementing best practices and architectural patterns for scalable applications</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <p class="job-title">Flutter Developer</p>
+                <p class="company-date">Gmagica | February 2023 - January 2024</p>
+                <ul>
+                    <li>Developed secure payment integration features for Gamgica Moov's money app in Côte d'Ivoire</li>
+                    <li>Implemented robust encryption protocols for financial data protection</li>
+                    <li>Delivered seamless banking and money transfer solutions</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <p class="job-title">Flutter Developer</p>
+                <p class="company-date">Ykipp | August 2022 - February 2023</p>
+                <ul>
+                    <li>Led integration of Domain-Driven Design (DDD) and Bloc architecture in educational platform</li>
+                    <li>Enhanced platform scalability and performance through architectural improvements</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <p class="job-title">Junior Project Co-Ordinator</p>
+                <p class="company-date">Tegain Pvt. Ltd | October 2021 - August 2022</p>
+                <ul>
+                    <li>Coordinated multiple development projects and managed project timelines</li>
+                    <li>Facilitated communication between team members and stakeholders</li>
+                </ul>
+            </div>
+        </div>
+
+       <!-- <div class="section">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Published Flutter Library on pub.dev, contributing to the Flutter developer community</li>
+                <li>Successfully implemented secure payment systems for financial applications</li>
+                <li>Mentored junior developers and interns, fostering team growth</li>
+            </ul>
+        </div>  -->
+
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>12th (CBSE)</strong> - Dharani International School, 2018<br>
+            <strong>SSLC (CBSE)</strong> - ST. Annes Public School, 2016</p>
+        </div>
+
+        <!-- <div class="section">
+            <h2>Domains of Expertise</h2>
+            <ul>
+                <li>Healthcare Management Systems (HMS)</li>
+                <li>Educational Technology (Ed-Tech)</li>
+                <li>E-commerce</li>
+                <li>Customer Relationship Management (CRM)</li>
+            </ul>
+        </div> -->
+    </div>
+</body>
+</html>
