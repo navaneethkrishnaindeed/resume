@@ -1,0 +1,11 @@
+{
+  "name": "navaneeth-resume",
+  "version": "1.0.0",
+  "description": "ATS-optimized resume generator",
+  "scripts": {
+    "generate-pdf": "node generate-pdf.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}
